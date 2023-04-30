@@ -1,0 +1,146 @@
+body{
+  background-image: linear-gradient(
+    rgb(59,88,93),
+    rgb(29,40,42)
+  );
+  color: wheat;
+  font-family:sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.search-box {
+  position: absolute;
+  top:10%;
+  left: 66%;
+  transform: translate(-10% , -10%);
+  background-image: linear-gradient(
+    rgb(59,88,93),
+    rgb(29,40,42)
+  );
+  height: 40px;
+  padding: 10px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0%;
+  color: white;
+  width: 0;
+  transition: .5ms;
+}
+::-webkit-input-placeholder {
+  background-image: linear-gradient(
+    rgb(59,88,93),
+    rgb(29,40,42)
+  );
+}
+.seach-btn {
+display: flex;
+justify-content: center;
+  align-items: center;
+  transition: .5ms;
+}
+.search-box-hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+.seach-btn:hover > .seach-btn {
+  background: white;
+}
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+}
+
+#rayonny {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3em 0 1em 0;
+
+}
+
+#cassio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  font-size: 1.9em;
+  cursor: pointer;
+
+}
+.button-navigate {
+  font-size: 2em;
+}
+
+.button-biggest {
+  font-size: 9em;
+}
+
+#cover {
+  width: 450px;
+
+}
+
+#playlist-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1em 0 4em 0;
+}
+
+#song-name {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.light-color {
+  color: rgb(139, 153, 156);
+}
+
+#progress-bar {
+  background-color: rgb(139, 153, 156);
+  height: 3px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+#current-progress {
+  --progress: 0%;
+  background-color: white;
+  height: inherit;
+  width: var(--progress);
+  border-radius: inherit;
+}
+
+
+#progress-container {
+  cursor: pointer;
+}
+
+.button-active {
+  color: rgb(0, 128, 62);
+}
+
+#time-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: smaller;
+  margin-top: 0.5em;
+}
