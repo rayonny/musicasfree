@@ -80,12 +80,12 @@ button {
 }
 
 .button {
-  font-size: 1.9em;
+  font-size: 8em;
   cursor: pointer;
 
 }
 .button-navigate {
-  font-size: 2em;
+  font-size: 8em;
 }
 
 .button-biggest {
@@ -93,7 +93,7 @@ button {
 }
 
 #cover {
-  width: 450px;
+  width: 700px;
 
 }
 
