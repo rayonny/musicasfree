@@ -65,7 +65,7 @@ const originalplaylist = [{
   file: 'Fimdeestrada',
   liked: false,
 }, {
-  songName: 'Girls Like You ft. Cardi B',
+  songName: 'Girls Like You Cardi B',
   artist: 'Maroon 5',
   file: 'Girls',
   liked: false,
@@ -90,18 +90,18 @@ const originalplaylist = [{
     file: 'SetFire',
     liked: false,
   }, {
-    songName: 'Maroon 5 - Sugar',
+    songName: 'Sugar',
     artist: 'Maroon 5',
     file: 'Sugar',
     liked: false,
   }
   , {
-    songName: 'John Legend, All of Me (lyrics) ',
+    songName: 'John Legend ',
     artist: 'Ed Sheeran',
     file: 'lyrics',
     liked: false,
   }, {
-    songName: 'Mark Ronson - Uptown Funk',
+    songName: 'Uptown Funk',
     artist: 'Bruno Mars',
     file: 'Uptown',
     liked: false,
@@ -142,12 +142,12 @@ const originalplaylist = [{
     file: 'Beyonce',
     liked: false,
   }, {
-    songName: 'Imagine Dragons - Radioactive',
+    songName: 'Radioactive',
     artist: 'Imagine Dragons',
     file: 'Dragons',
     liked: false,
   }, {
-    songName: 'Umbrella (Orange Version)',
+    songName: 'Umbrella',
     artist: 'Rihanna',
     file: 'rihana',
     liked: false,
@@ -172,7 +172,7 @@ const originalplaylist = [{
     file: 'Decide',
     liked: false,
   }, {
-    songName: 'Flor E O Beija-Flor part. Marília Mendonça',
+    songName: 'Beija-Flor Marília Mendonça',
     artist: 'Henrique e Juliano',
     file: 'florbeijaflor',
     liked: false,
@@ -187,7 +187,7 @@ const originalplaylist = [{
     file: 'sia',
     liked: false,
   }, {
-    songName: 'Formosa, Vai Mostrar O Peitinho ',
+    songName: 'Vai Mostrar O Peitinho ',
     artist: 'Kaio Viana e MC CJ',
     file: 'banana',
     liked: false,
@@ -198,7 +198,7 @@ const originalplaylist = [{
     liked: false,
   }, {
     songName: 'Coraçao cigano',
-    artist: 'Luan Santana - CORAÇÃO CIGANO (Letra_Lyrics) feat. Luisa Sonza',
+    artist: 'Luan Santana - Luisa Sonza',
     file: 'luan',
     liked: false,
   }, {
@@ -221,37 +221,12 @@ const originalplaylist = [{
     artist: 'Shakira',
     file: 'shakira',
     liked: false,
-  }, {
-    songName: 'Cheap Thrills',
-    artist: 'Sia',
-    file: 'Cheap ',
-    liked: false,
-  }, {
+  },  {
     songName: 'Like A Boy ',
     artist: 'Ciara',
     file: 'Ciara',
     liked: false,
-  }, {
-    songName: 'Call 911',
-    artist: 'Trunks',
-    file: 'trunks ',
-    liked: false,
-  }, {
-    songName: 'coraçãode gelo',
-    artist: 'wiu',
-    file: 'gelo ',
-    liked: false,
-  }, {
-    songName: 'Call 911',
-    artist: 'Trunks',
-    file: 'trunks ',
-    liked: false,
-  }, {
-    songName: 'Call 911',
-    artist: 'Trunks',
-    file: 'trunks ',
-    liked: false,
-  }];
+  }, ];
 
 
 let isPlaying = false;
