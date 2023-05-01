@@ -1,7 +1,7 @@
 body{
   background-image: linear-gradient(
     rgb(59,88,93),
-    rgb(29,40,42)
+    rgb(59,88,93)
   );
   color: wheat;
   font-family:sans-serif;
@@ -48,7 +48,7 @@ body{
 display: flex;
 justify-content: center;
   align-items: center;
-  transition: .5ms;
+  transition: .10ms;
 }
 .search-box-hover > .search-txt {
   width: 240px;
