@@ -101,7 +101,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 30em 0 40em 0;
+  margin: 20em 0 20em 0;
 }
 
 #song-name {
